@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="dropdown">
+    <button class="dropbtn">Select a Cat</button>
+    <div class="dropdown-content">
+      <button id="1">Cat 1</button>
+      <button id="2">Cat 2</button>
+      <button id="3">Cat 3</button>
+      <button id="4">Cat 4</button>
+      <button id="5">Cat 5</button>
+    </div>
+  </div>
+  <div id="cats">
+    <h1 id="title"></h1>
+    <div id="cat_img"></div>
+    <p id="heart"></p>
+    <h3 id="count"></h3>
+    <button id="admin">Admin</button>
+    <div id="admin_area" class="inputs">
+      <div class="inputs">
+        <form id="myForm">
+          Name : <input type="text" id="cName" size="20" name="cName">
+          URL : <input type="text" id="url" size="20" name="url">
+          Number of clicks : <input type="number" id="clicks" size="20" name="clicks">
+        </form>
+      </div>
+      <br>
+      <button id="save">Save</button>
+      <button id="cancel">Cancel</button>
+    </div>
+  </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

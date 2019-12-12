@@ -2,31 +2,31 @@ var data = {
     cat_id: 0,
     cat1: {
         id: 1,
-        image: "https://live.staticflickr.com/7411/12657513705_7e3a833353_k.jpg",
+        image: "img/cat0.jpg",
         title: "First",
         click: 0,
     },
     cat2: {
         id: 2,
-        image: "https://us.123rf.com/450wm/5second/5second1606/5second160600195/57712279-pequeño-gato-hermoso-en-un-sofá-de-color-gris.jpg?ver=6",
+        image: "img/cat1.jpg",
         title: "Second",
         click: 0
     },
     cat3: {
         id: 3,
-        image: "https://us.123rf.com/450wm/5second/5second1609/5second160900032/62048554-beautiful-little-cat-on-a-grey-sofa.jpg?ver=6",
+        image: "img/cat2.jpg",
         title: "Third",
         click: 0
     },
     cat4: {
         id: 4,
-        image: "https://us.123rf.com/450wm/5second/5second1609/5second160900078/62047859-beautiful-little-cat-on-female-hands-outdoors.jpg?ver=6",
+        image: "img/cat3.jpg",
         title: "Fourth",
         click: 0
     },
     cat5: {
         id: 5,
-        image: "https://s1.1zoom.me/big0/670/Cats_4Kittens_Glance_505828.jpg",
+        image: "img/cat4.jpg",
         title: "Fifth",
         click: 0
     }
